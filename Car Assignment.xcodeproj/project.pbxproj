@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		21AC8C8C20B37776002DADA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC8C8B20B37776002DADA4 /* main.m */; };
+		21AC8C9420B377A7002DADA4 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC8C9320B377A7002DADA4 /* Car.m */; };
+		21AC8C9720B3795C002DADA4 /* Toyota.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC8C9620B3795C002DADA4 /* Toyota.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		21AC8C8820B37776002DADA4 /* Car Assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Car Assignment"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AC8C8B20B37776002DADA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21AC8C9220B377A7002DADA4 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		21AC8C9320B377A7002DADA4 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		21AC8C9520B3795C002DADA4 /* Toyota.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toyota.h; sourceTree = "<group>"; };
+		21AC8C9620B3795C002DADA4 /* Toyota.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Toyota.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				21AC8C8B20B37776002DADA4 /* main.m */,
+				21AC8C9520B3795C002DADA4 /* Toyota.h */,
+				21AC8C9620B3795C002DADA4 /* Toyota.m */,
+				21AC8C9220B377A7002DADA4 /* Car.h */,
+				21AC8C9320B377A7002DADA4 /* Car.m */,
 			);
 			path = "Car Assignment";
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21AC8C9720B3795C002DADA4 /* Toyota.m in Sources */,
+				21AC8C9420B377A7002DADA4 /* Car.m in Sources */,
 				21AC8C8C20B37776002DADA4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
